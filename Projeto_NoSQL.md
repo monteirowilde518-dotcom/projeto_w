@@ -1,11 +1,5 @@
 # Estrutura de um Projeto NoSQL para um Supermercado
 
-## Objetivo do projeto
-
-O objetivo deste projeto é criar uma estrutura de banco de dados NoSQL para ajudar no funcionamento de um supermercado. O sistema poderá controlar produtos, estoque, vendas, fornecedores e também os centros de custo.
-
-A proposta é mostrar como cada tipo de banco NoSQL pode ser usado dentro do supermercado, de acordo com a necessidade do sistema. A atividade trabalha com os modelos Chave-Valor, Colunas, Documentos e Grafos.
-
 ## 1. Banco Chave-Valor
 
 O banco Chave-Valor guarda uma informação usando uma chave e um valor. Ele é bom para informações simples e que precisam ser acessadas rapidamente.
