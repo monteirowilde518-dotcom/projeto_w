@@ -109,9 +109,3 @@ Cada modelo pode ser usado para uma parte diferente do sistema:
 - **Colunas:** para grandes quantidades de dados, relatórios e análises.
 - **Documentos:** para cadastros de produtos, fornecedores, clientes e pedidos.
 - **Grafos:** para mostrar relações entre produtos, clientes, fornecedores e centros de custo.
-
-## Conclusão
-
-A utilização dos quatro tipos de banco NoSQL pode deixar o sistema do supermercado mais organizado e rápido. Cada modelo possui uma função diferente e pode ser escolhido de acordo com o tipo de informação que será armazenada.
-
-Dessa forma, o supermercado consegue controlar melhor seus produtos, suas vendas, seus fornecedores e seus centros de custo.
