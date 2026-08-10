@@ -11,21 +11,21 @@
 
 # Questão 2 — Justificativas
 
-# a) Chave-Valor
+ a) Chave-Valor
 
 O modelo chave-valor é indicado para cadastrar e encontrar usuários rapidamente. Cada usuário possui uma chave própria, que pode ser o seu código. A partir dessa chave, podemos encontrar o nome, o e-mail e outras informações.
 
-# b) Colunas ou Distribuído
+ b) Colunas ou Distribuído
 
 Esse modelo é indicado quando o sistema possui muitos dados. As informações podem ser divididas entre vários servidores, ajudando o banco de dados a trabalhar melhor e com mais rapidez.
 
-# c) Documentos
+ c) Documentos
 
 O modelo de documentos é bom para guardar o perfil dos estudantes. Ele permite colocar várias informações em um único documento, como nome, idade, curso, matrícula e semestre.
 
 Outra vantagem é que os documentos podem ter informações diferentes. Assim, não é obrigatório que todos os estudantes tenham exatamente os mesmos dados.
 
-# d) Grafos
+ d) Grafos
 
 O modelo de grafos é usado quando precisamos mostrar relações entre pessoas, cursos e disciplinas. Ele pode mostrar, por exemplo, quais estudantes estão matriculados em uma disciplina e qual professor ministra essa disciplina.
 
@@ -71,9 +71,9 @@ O modelo de documentos é flexível porque podemos acrescentar outras informaç�
 
 Nesse exemplo, temos:
 
-- **Fiyero**, que é um estudante.
-- **Morrible**, que é uma professora.
-- **Banco de Dados**, que é uma disciplina.
+- Fiyero, que é um estudante.
+- Morrible, que é uma professora.
+- Banco de Dados, que é uma disciplina.
 
 A representação pode ser feita assim:
 
@@ -101,17 +101,17 @@ Nesse grafo, Fiyero, Morrible e Banco de Dados são os nós. As frases que ligam
 
 # Questão 6 — Escalabilidade
 
-# a) O que é escalabilidade?
+a) O que é escalabilidade?
 
 Escalabilidade é a capacidade de um sistema crescer sem ficar muito lento ou parar de funcionar. Por exemplo, se o número de estudantes e usuários aumentar, o sistema deverá continuar funcionando corretamente.
 
-# b) Diferença entre escalabilidade vertical e horizontal
+ b) Diferença entre escalabilidade vertical e horizontal
 
 A escalabilidade vertical acontece quando aumentamos a capacidade de um único servidor. Podemos colocar mais memória, um processador melhor ou mais espaço de armazenamento.
 
 A escalabilidade horizontal acontece quando adicionamos mais servidores ao sistema. Dessa forma, os dados e as tarefas são divididos entre várias máquinas.
 
-# c) Por que a escalabilidade é importante nos bancos NoSQL?
+ c) Por que a escalabilidade é importante nos bancos NoSQL?
 
 A escalabilidade é importante porque os bancos NoSQL são usados para armazenar muitos dados e atender a vários usuários ao mesmo tempo.
 
@@ -119,13 +119,13 @@ Com a possibilidade de usar vários servidores, o sistema consegue crescer sem d
 
 # Questão 7 — Replicação e Particionamento
 
-# a) O que é replicação?
+ a) O que é replicação?
 
 Replicação é quando fazemos cópias dos mesmos dados em mais de um servidor. Isso é importante porque, se um servidor apresentar algum problema, os dados ainda estarão disponíveis em outro servidor.
 
 A replicação também pode ajudar a melhorar o acesso às informações.
 
-# b) O que é particionamento?
+ b) O que é particionamento?
 
 Particionamento é quando dividimos os dados em partes menores e colocamos cada parte em um servidor diferente.
 
