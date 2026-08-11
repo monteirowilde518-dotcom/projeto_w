@@ -72,7 +72,7 @@ O modelo de documentos é flexível porque podemos acrescentar outras informaç�
 Nesse exemplo, temos:
 
 - Fiyero, que é um estudante.
-- Morrible, que é uma professora.
+- Morbel, que é uma professora.
 - Banco de Dados, que é uma disciplina.
 
 A representação pode ser feita assim:
@@ -86,7 +86,7 @@ A representação pode ser feita assim:
         ▲
         | é ministrada por
         |
-[Morrible: Professora]
+[Morbel: Professora]
 ```
 
 Também podemos escrever os relacionamentos da seguinte forma:
@@ -94,10 +94,10 @@ Também podemos escrever os relacionamentos da seguinte forma:
 ```text
 Fiyero está matriculado em Banco de Dados.
 
-Morrible ministra Banco de Dados.
+Morbel ministra Banco de Dados.
 ```
 
-Nesse grafo, Fiyero, Morrible e Banco de Dados são os nós. As frases que ligam esses elementos são os relacionamentos.
+Nesse grafo, Fiyero, Morbel e Banco de Dados são os nós. As frases que ligam esses elementos são os relacionamentos.
 
 # Questão 6 — Escalabilidade
 
